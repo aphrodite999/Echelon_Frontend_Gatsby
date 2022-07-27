@@ -8,4 +8,4 @@
   package = "netlify/plugin-gatsby"
 
 [[plugins]]
-  package = "netlify-plugin-inline-critical-css"
+  package = "netlify-plugin-one"
