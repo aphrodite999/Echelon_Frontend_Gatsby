@@ -1,0 +1,11 @@
+
+[build]
+  command = "npm run build"
+  functions = "netlify/functions"
+  publish = "/public"
+  
+[[plugins]]
+  package = "netlify/plugin-gatsby"
+
+[[plugins]]
+  package = "netlify-plugin-inline-critical-css"
